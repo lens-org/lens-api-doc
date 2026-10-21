@@ -4,6 +4,7 @@ title: Patent PDF API
 permalink: /patent-pdf-api.html
 show_sidebar: true
 sidebar: toc
+---
 
 ### Overview
 
