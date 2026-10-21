@@ -16,6 +16,7 @@ permalink: /support.html
 
 API Version | Schema Versions | Date Released | Notes
 ------- | ------| ------| -------
+`2.20.0` | - Scholar: `1.6.8` <br/> - Patent: `1.6.5` <br/> - Patent PDF API: `1.5.1` | Oct 21, 2026 | - Added <a href="https://docs.api.lens.org/patent-pdf-api.html">Patent PDF API</a> documentation page.
 `2.19.3` | - Scholar: `1.6.8` <br/> - Patent: `1.6.5` | Apr 17, 2026 | - Added `biblio.priority_claims.claims.linkage_type` to the patent response fields. <br/> - Added `priority_claim.linkage_type`to the supported patent request fields.
 `2.19.0` | - Scholar: `1.6.8` <br/> - Patent: `1.6.4` | Dec 27, 2025 | - Added `funding.org_id` and `funding.funding_name` to the scholarly works response fields.
 `2.19.0` | - Scholar: `1.6.7` <br/> - Patent: `1.6.4` | Dec 21, 2025 | - Added `biblio.application_number` to the patent response fields. <br/> - Added `application_number`to the supported patent request fields.
