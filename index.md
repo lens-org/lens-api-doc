@@ -21,6 +21,7 @@ toc:
     <h4>Available API Resources:</h4>
     <div>Scholarly Schema Version: <div class="badge">1.6.8</div></div>
     <div>Patent Schema Version: <div class="badge">1.6.5</div></div>
+   <div>Patent PDF API: <div class="badge">1.5.1</div></div>
     <footer>Last Update: October 21, 2026</footer>
 </div>
 
