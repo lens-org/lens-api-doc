@@ -36,15 +36,14 @@ The Trial Plan supports 5 requests per minute and 1,000 requests per month. The 
 ]
 ```
 
-> Note, only requests that return a PDF count toward your quota. Requests that return no PDF (for example, a 404) are not counted.
+> Note, only requests that return a PDF count toward your quota. Requests that return no PDF (for example, a 404 response) are not counted.
 
 
 ### Authentication
-Include your API token with each request, using the `TOKEN` query parameter (shown below) [or: the Authorization header: Bearer TOKEN].
-
+Include your API token with each request, using the `TOKEN` query parameter (shown below), or add the Authorization header: Bearer Token.
 
 ### Endpoint
-<pre>GET  https://gateway.api.lens.org/images/patent/{lens_id}/pdf</pre>
+<pre>GET  https://gateway.api.lens.org/images/patent/{lens_id}/pdf?token=TOKEN</pre>
 
 Where `{lens_id}` is the Lens Identifier of a single patent record.
 
@@ -53,6 +52,8 @@ Where `{lens_id}` is the Lens Identifier of a single patent record.
 Append a file name to set the name of the downloaded file:
 
 <pre>GET  https://gateway.api.lens.org/images/patent/{lens_id}/pdf/{file_name.pdf}?token=TOKEN</pre>
+
+Where `{file_name.pdf}` is the custom file name.
 
 #### Optional: family fallback
 If a record has no PDF, you can ask for a PDF from another member of its patent family.<br>Add `familyFallback=true`:
